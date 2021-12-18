@@ -118,6 +118,11 @@ footer {
     color: white;
 }
 
+.fa-mail-reply {
+    background: black;
+    color: white;
+}
+
 .subscribe-form {
     list-style-type: none;
     text-align: center;
