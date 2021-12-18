@@ -1,0 +1,173 @@
+header {
+    background-color: black;
+    justify-content: center;
+    height: 90px;
+    font-family: sans-serif;
+}
+
+.header-logo {
+    width: 300px;
+    height: 100px;
+}
+
+.p-2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.header-links {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+header ul li {
+    display: inline;
+}
+
+.wrapper {
+    margin-right: 60px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.heading-block {
+    padding-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 170px;
+}
+
+.heading-block h3 {
+    font-size: 5vw;
+    color: black;
+    line-height: 1.1em;
+    white-space: normal;
+    font-weight: 300;
+    text-align: left;
+    font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+}
+
+.heading-block h3:hover {
+    color: #222222;
+}
+
+footer {
+    justify-content: center;
+    height: 300px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-dribbble {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: black;
+    color: white;
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+.subscribe-form {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.subscribe-heading {
+    text-align: center;
+    color: #777777;
+}
+
+.subscribe-text {
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.footer-links {
+    width: 100%;
+    padding: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 1.65em;
+}
+
+footer p {
+    color: #aaaaaa;
+    display: inline;
+    padding: 1px;
+}
+
+.copyright-block {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.65em;
+}
+
+.copyright-block a {
+    color: #aaaaaa;
+}
+
+.copyright-block a:hover {
+    color: black;
+}

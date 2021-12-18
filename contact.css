@@ -1,0 +1,147 @@
+header {
+    background-color: black;
+    justify-content: center;
+    height: 90px;
+    font-family: sans-serif;
+}
+
+.header-logo {
+    width: 300px;
+    height: 100px;
+}
+
+.p-2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.header-links {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    margin-right: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+header ul li {
+    display: inline;
+}
+
+.wrapper {
+    margin-right: 60px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.content-wrapper {
+    text-align: center;
+    margin: 40px 0 170px 0;
+}
+
+.content-wrapper h3 {
+    color: black;
+    line-height: 1.1em;
+    font-weight: 300;
+    text-align: left;
+    font-size: 5vw;
+}
+
+.content-flex-container {
+    align-items: baseline;
+    justify-content: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-container {
+    flex: 1;
+    order: 1;
+}
+
+.second-container {
+    flex: 1;
+    order: 2;
+}
+
+footer {
+    align-items: baseline;
+    justify-content: center;
+    height: initial;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.flex-container {
+    flex: 1;
+    order: 2;
+}
+
+.subscribe-form {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.subscribe-block {
+    text-align: center;
+}
+
+.subscribe-block h4 {
+    color: #777777;
+}
+
+.subscribe-block p {
+    color: #b0b0b0;
+}
+
+.footer-links {
+    width: 100%;
+    padding: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 1.65em;
+}
+
+footer p {
+    color: #aaaaaa;
+    display: inline;
+    padding: 1px;
+}
+
+.copyright-block {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.65em;
+}
+
+.copyright-block a {
+    color: #aaaaaa;
+}
+
+.copyright-block a:hover {
+    color: black;
+}
