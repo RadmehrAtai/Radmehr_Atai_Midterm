@@ -66,7 +66,7 @@ header ul li {
     color: black;
     line-height: 1em;
     font-weight: 300;
-    text-align: center;
+    text-align: left;
     font-family: 'playfair display', 'HelveticaNeue', 'Helvetica Neue', 'Helvetica-Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -81,7 +81,7 @@ header ul li {
 
 footer {
     justify-content: center;
-    height: 300px;
+    height: 400px;
     font-family: sans-serif;
 }
 
