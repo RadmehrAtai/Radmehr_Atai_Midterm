@@ -67,26 +67,55 @@ header ul li {
 .first-container {
     flex: 1;
     order: 1;
+    margin-right: 10px;
 }
 
 .second-container {
     flex: 1;
     order: 2;
+    margin-left: 10px;
 }
 
 footer {
-    align-items: baseline;
     justify-content: center;
-    height: initial;
+    height: 300px;
     font-family: sans-serif;
-    display: flex;
-    flex-direction: row;
-    border: none;
+    margin-bottom: 60px;
 }
 
-.flex-container {
-    flex: 1;
-    order: 2;
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+}
+
+.fa-dribbble {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+.fa-linkedin {
+    background: black;
+    color: white;
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
 }
 
 .subscribe-form {
@@ -96,15 +125,13 @@ footer {
     padding: 10px;
 }
 
-.subscribe-block {
+.subscribe-heading {
     text-align: center;
-}
-
-.subscribe-block h4 {
     color: #777777;
 }
 
-.subscribe-block p {
+.subscribe-text {
+    text-align: center;
     color: #b0b0b0;
 }
 
